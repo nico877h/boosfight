@@ -21,5 +21,6 @@ public class NavScript : MonoBehaviour
     void Update()
     {
         agent.destination = Player.position;
+
     }
 }

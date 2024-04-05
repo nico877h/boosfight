@@ -58,6 +58,7 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\BossDamage.cs" />
     <Compile Include="Assets\Code\Damage.cs" />
     <Compile Include="Assets\Code\HealthBar.cs" />
     <Compile Include="Assets\Code\look.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\Code\EnemyHealth.cs" />
     <Compile Include="Assets\Code\Movement.cs" />
     <Compile Include="Assets\Code\navScript.cs" />
+    <Compile Include="Assets\Code\EnemyBullet.cs" />
     <Compile Include="Assets\Code\playerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
