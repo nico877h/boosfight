@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     public float cooldownTime = 1f;
+    public float bulletSpeed = 30f;
     private float lastUsedTime;
 
     public Rigidbody bullet;
@@ -15,7 +16,7 @@ public class EnemyBullet : MonoBehaviour
             Rigidbody clonnedRocket;
             clonnedRocket = Instantiate(bullet, transform.position, transform.rotation);
 
-            clonnedRocket.velocity = transform.TransformDirection(Vector3.forward * 10f);
+            clonnedRocket.velocity = transform.TransformDirection(Vector3.forward * bulletSpeed);
 
             lastUsedTime = Time.time;
         }
