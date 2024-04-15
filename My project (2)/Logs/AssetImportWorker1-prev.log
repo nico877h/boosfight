@@ -15,7 +15,7 @@ C:/Users/nicol/boosfight/My project (2)
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58465
+60514
 Successfully changed project path to: C:/Users/nicol/boosfight/My project (2)
 C:/Users/nicol/boosfight/My project (2)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/nicol/boosfight/My project (2)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3372] Host "[IP] 10.131.211.99 [Port] 0 [Flags] 2 [Guid] 644524381 [EditorId] 644524381 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P6DJ1I9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13392] Host "[IP] 10.131.211.99 [Port] 0 [Flags] 2 [Guid] 2767986495 [EditorId] 2767986495 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P6DJ1I9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3372] Host "[IP] 10.131.211.99 [Port] 0 [Flags] 2 [Guid] 644524381 [EditorId] 644524381 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P6DJ1I9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13392] Host "[IP] 10.131.211.99 [Port] 0 [Flags] 2 [Guid] 2767986495 [EditorId] 2767986495 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P6DJ1I9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006294 seconds.
-- Loaded All Assemblies, in  0.497 seconds
+Registered in 0.003848 seconds.
+- Loaded All Assemblies, in  0.464 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.371 seconds
-Domain Reload Profiling: 867ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (14ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
 	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (207ms)
-		LoadAssemblies (136ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (204ms)
 			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (186ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (372ms)
+	FinalizeReload (406ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (281ms)
+		SetupLoadedEditorAssemblies (297ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,52 +116,82 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicol\boosfight\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\nicol\boosfight\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.860 seconds
-Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.895 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.932 seconds
-Domain Reload Profiling: 1789ms
-	BeginReloadAssembly (209ms)
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (205ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (523ms)
-		LoadAssemblies (395ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (358ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (197ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (933ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (762ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (679ms)
+		SetupLoadedEditorAssemblies (530ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3583.
-Memory consumption went from 115.2 MB to 115.2 MB.
-Total: 4.505300 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.114200 ms MarkObjects: 3.965700 ms  DeleteObjects: 0.128600 ms)
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3582.
+Memory consumption went from 115.1 MB to 115.1 MB.
+Total: 3.926100 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.206500 ms MarkObjects: 3.236400 ms  DeleteObjects: 0.120500 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 334159.153788 seconds.
+  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/large_sandstone_blocks_01/Materials/large_sandstone_blocks_01_diff_4k.mat
+  artifactKey: Guid(1f190aea7f7a391488b8cc24ab6e5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/large_sandstone_blocks_01/Materials/large_sandstone_blocks_01_diff_4k.mat using Guid(1f190aea7f7a391488b8cc24ab6e5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476e218b7b40eb3dfa1c8d8fd0a0b05b') in 0.479411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3624.
+Memory consumption went from 70.5 MB to 70.5 MB.
+Total: 10.236200 ms (FindLiveObjects: 0.632600 ms CreateObjectMapping: 0.433700 ms MarkObjects: 9.115600 ms  DeleteObjects: 0.051100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -177,130 +207,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 328764.294850 seconds.
-  path: Assets/JC_StylizedRocks_Lite/Prefabs/SM_Rocks_03.prefab
-  artifactKey: Guid(b0abe2cf3d0874541a042aeb54738371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedRocks_Lite/Prefabs/SM_Rocks_03.prefab using Guid(b0abe2cf3d0874541a042aeb54738371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a35dc616275beebdf44f96092e182d') in 0.043173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/JC_StylizedRocks_Lite/Prefabs/SM_Rocks_04.prefab
-  artifactKey: Guid(86509780b07285a44a69b1eb089a3ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JC_StylizedRocks_Lite/Prefabs/SM_Rocks_04.prefab using Guid(86509780b07285a44a69b1eb089a3ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469c4bfb6c2ec753b612d28c1e69ce00') in 0.003343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 30.216682 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_bump_4k.png
-  artifactKey: Guid(7c29dd87b59517f448159ceeca1981e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_bump_4k.png using Guid(7c29dd87b59517f448159ceeca1981e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89babdbbc7964889148a9f35c0f81fe3') in 0.096209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_disp_4k.png
-  artifactKey: Guid(181bf635588f84b4399ecd98f34ae097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_disp_4k.png using Guid(181bf635588f84b4399ecd98f34ae097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c086fdc7b1f1740611f9181a98f3bf0b') in 0.070858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_diff_4k.png
-  artifactKey: Guid(667a2d470490a724ca55c7e5b2383119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_diff_4k.png using Guid(667a2d470490a724ca55c7e5b2383119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6b1f6a161de80d5cd18a4488c7d1c1') in 0.046992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_nor_4k.png
-  artifactKey: Guid(e46a9f75f64e4c04790ba774c9e9bdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/white_sandstone_bricks_03/white_sandstone_bricks_03_nor_4k.png using Guid(e46a9f75f64e4c04790ba774c9e9bdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18565a849672c8474b44e0988d1f00db') in 0.095183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.178454 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_bump_4k.png
-  artifactKey: Guid(8f57e47a56847cd41962482d61681c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_bump_4k.png using Guid(8f57e47a56847cd41962482d61681c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90df97add72a6e45a36f5ebe2f93ea3') in 0.054284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_rough_4k.png
-  artifactKey: Guid(2fcdc2f43c54ebf4dbac6d7d0392147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_rough_4k.png using Guid(2fcdc2f43c54ebf4dbac6d7d0392147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2875764766857bdb6b511c5ed55a96') in 0.045804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_disp_4k.png
-  artifactKey: Guid(733e7e111d758b54bbb345560c951d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_disp_4k.png using Guid(733e7e111d758b54bbb345560c951d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15119505d61bd26850a5a05512b0fed2') in 0.074383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_nor_4k.png
-  artifactKey: Guid(fdd9f635b71562e40b17d45b922f8860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/sandstone_blocks_05/sandstone_blocks_05_nor_4k.png using Guid(fdd9f635b71562e40b17d45b922f8860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5029b2b49d67ddb0b335f39b9c7ad6cd') in 0.055925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.053273 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/medieval_blocks_06/medieval_blocks_06_diff_4k.png
-  artifactKey: Guid(85861965e4cf9d742ad660d0542df3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/medieval_blocks_06/medieval_blocks_06_diff_4k.png using Guid(85861965e4cf9d742ad660d0542df3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b34ec05ae9a3d9f170bc1adeb008374') in 0.051880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/medieval_blocks_06/medieval_blocks_06_disp_4k.png
-  artifactKey: Guid(7effda4585459ee4c9e81c012567373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/medieval_blocks_06/medieval_blocks_06_disp_4k.png using Guid(7effda4585459ee4c9e81c012567373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ddaa61d97102e91c4c337b5ea0efd8') in 0.055781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/medieval_blocks_06/medieval_blocks_06_nor_4k.png
-  artifactKey: Guid(8a4e849cd42ba6d4d8eca7eae543aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_textures/medieval_blocks_06/medieval_blocks_06_nor_4k.png using Guid(8a4e849cd42ba6d4d8eca7eae543aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d1312c501817a2afd2ff2da2379f72') in 0.071820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.965259 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_materials/white_sandstone_blocks_02.mat
-  artifactKey: Guid(3e5a6c8dfde4b8b4fafc28736e767a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_materials/white_sandstone_blocks_02.mat using Guid(3e5a6c8dfde4b8b4fafc28736e767a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a5aaf8a20c14439b2b2642667cec93') in 0.102468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_materials/white_sandstone_bricks_03.mat
-  artifactKey: Guid(118770993b62b9f489c3d27525a904e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_materials/white_sandstone_bricks_03.mat using Guid(118770993b62b9f489c3d27525a904e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccb53ace0a70e52db1bd9caaaca892f') in 0.023496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextureHaven/sandstone_4k/sandstone_4k_materials/white_sandstone_bricks.mat
-  artifactKey: Guid(d9b3fb176127d8c4bbcca63aadd0343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextureHaven/sandstone_4k/sandstone_4k_materials/white_sandstone_bricks.mat using Guid(d9b3fb176127d8c4bbcca63aadd0343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764b7c24a61f10b59a222a0847f3e7d9') in 0.038163 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicol\boosfight\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicol\boosfight\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.502 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.240 seconds
+Domain Reload Profiling: 1741ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3626.
+Memory consumption went from 119.0 MB to 118.9 MB.
+Total: 7.058700 ms (FindLiveObjects: 0.471100 ms CreateObjectMapping: 0.713300 ms MarkObjects: 5.724400 ms  DeleteObjects: 0.146700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
