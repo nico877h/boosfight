@@ -67,6 +67,7 @@
     <Compile Include="Assets\Code\Movement.cs" />
     <Compile Include="Assets\Code\navScript.cs" />
     <Compile Include="Assets\Code\EnemyBullet.cs" />
+    <Compile Include="Assets\Code\AiAim.cs" />
     <Compile Include="Assets\Code\playerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
