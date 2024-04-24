@@ -5,8 +5,6 @@ using UnityEngine.AI;
 
 public class Aiaim : MonoBehaviour
 {
-
-    private NavMeshAgent agent;
     public Transform Player;
 
     

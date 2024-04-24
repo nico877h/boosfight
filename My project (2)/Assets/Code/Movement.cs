@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     public float rotationSpeed = 180;
     public float sprintspeed = 5f;
 
-    CharacterController controller;
+    CharacterController controller; 
     Vector3 moveVelocity;
 
    
@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
 
             if (controller.isGrounded)
         {
-            moveVelocity = new Vector3(horizontal, 0, vertical) * speed;
+                moveVelocity = new Vector3(horizontal, 0, vertical) * speed;
 
             if (Input.GetButtonDown("Jump"))
             {

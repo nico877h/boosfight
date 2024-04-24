@@ -6,6 +6,7 @@ public class Rocket : MonoBehaviour
 {
     public float cooldownTime = 1f;
     private float lastUsedTime;
+    public float bulletSpeed = 100f;
 
     public Rigidbody bullet;
     void Update()
@@ -15,7 +16,7 @@ public class Rocket : MonoBehaviour
             Rigidbody clonnedRocket;
             clonnedRocket = Instantiate(bullet, transform.position, transform.rotation);
 
-            clonnedRocket.velocity = transform.TransformDirection(Vector3.forward * 100f);
+            clonnedRocket.velocity = transform.TransformDirection(Vector3.forward * bulletSpeed);
 
             lastUsedTime = Time.time;
         }
