@@ -15,7 +15,7 @@ public class playerHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            Application.Quit();
+            Application.Quit();  
         }
 
     }
